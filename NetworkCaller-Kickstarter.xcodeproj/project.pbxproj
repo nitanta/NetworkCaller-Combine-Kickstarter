@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A77CDE726303BF500EA8E62 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDE626303BF500EA8E62 /* Tests_iOS.swift */; };
+		6A77CDF226303BF500EA8E62 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDF126303BF500EA8E62 /* Tests_macOS.swift */; };
+		6A77CDF426303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDCB26303BF100EA8E62 /* NetworkCaller_KickstarterApp.swift */; };
+		6A77CDF526303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDCB26303BF100EA8E62 /* NetworkCaller_KickstarterApp.swift */; };
+		6A77CDF626303BF500EA8E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDCC26303BF100EA8E62 /* ContentView.swift */; };
+		6A77CDF726303BF500EA8E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDCC26303BF100EA8E62 /* ContentView.swift */; };
+		6A77CDF826303BF500EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CDCD26303BF500EA8E62 /* Assets.xcassets */; };
+		6A77CDF926303BF500EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CDCD26303BF500EA8E62 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A77CDE326303BF500EA8E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A77CDC626303BF100EA8E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77CDD126303BF500EA8E62;
+			remoteInfo = "NetworkCaller-Kickstarter (iOS)";
+		};
+		6A77CDEE26303BF500EA8E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A77CDC626303BF100EA8E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77CDD926303BF500EA8E62;
+			remoteInfo = "NetworkCaller-Kickstarter (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A77CDCB26303BF100EA8E62 /* NetworkCaller_KickstarterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCaller_KickstarterApp.swift; sourceTree = "<group>"; };
+		6A77CDCC26303BF100EA8E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A77CDCD26303BF500EA8E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A77CDD226303BF500EA8E62 /* NetworkCaller-Kickstarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetworkCaller-Kickstarter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CDD526303BF500EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CDDA26303BF500EA8E62 /* NetworkCaller-Kickstarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetworkCaller-Kickstarter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CDDC26303BF500EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CDDD26303BF500EA8E62 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6A77CDE226303BF500EA8E62 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CDE626303BF500EA8E62 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6A77CDE826303BF500EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CDED26303BF500EA8E62 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A77CDF126303BF500EA8E62 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6A77CDF326303BF500EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A77CDCF26303BF500EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDD726303BF500EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDDF26303BF500EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDEA26303BF500EA8E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A77CDC526303BF100EA8E62 = {
+			isa = PBXGroup;
+			children = (
+				6A77CDCA26303BF100EA8E62 /* Shared */,
+				6A77CDD426303BF500EA8E62 /* iOS */,
+				6A77CDDB26303BF500EA8E62 /* macOS */,
+				6A77CDE526303BF500EA8E62 /* Tests iOS */,
+				6A77CDF026303BF500EA8E62 /* Tests macOS */,
+				6A77CDD326303BF500EA8E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A77CDCA26303BF100EA8E62 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDCB26303BF100EA8E62 /* NetworkCaller_KickstarterApp.swift */,
+				6A77CDCC26303BF100EA8E62 /* ContentView.swift */,
+				6A77CDCD26303BF500EA8E62 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6A77CDD326303BF500EA8E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDD226303BF500EA8E62 /* NetworkCaller-Kickstarter.app */,
+				6A77CDDA26303BF500EA8E62 /* NetworkCaller-Kickstarter.app */,
+				6A77CDE226303BF500EA8E62 /* Tests iOS.xctest */,
+				6A77CDED26303BF500EA8E62 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A77CDD426303BF500EA8E62 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDD526303BF500EA8E62 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6A77CDDB26303BF500EA8E62 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDDC26303BF500EA8E62 /* Info.plist */,
+				6A77CDDD26303BF500EA8E62 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6A77CDE526303BF500EA8E62 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDE626303BF500EA8E62 /* Tests_iOS.swift */,
+				6A77CDE826303BF500EA8E62 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6A77CDF026303BF500EA8E62 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CDF126303BF500EA8E62 /* Tests_macOS.swift */,
+				6A77CDF326303BF500EA8E62 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A77CDD126303BF500EA8E62 /* NetworkCaller-Kickstarter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CDFC26303BF500EA8E62 /* Build configuration list for PBXNativeTarget "NetworkCaller-Kickstarter (iOS)" */;
+			buildPhases = (
+				6A77CDCE26303BF500EA8E62 /* Sources */,
+				6A77CDCF26303BF500EA8E62 /* Frameworks */,
+				6A77CDD026303BF500EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NetworkCaller-Kickstarter (iOS)";
+			productName = "NetworkCaller-Kickstarter (iOS)";
+			productReference = 6A77CDD226303BF500EA8E62 /* NetworkCaller-Kickstarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A77CDD926303BF500EA8E62 /* NetworkCaller-Kickstarter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CDFF26303BF500EA8E62 /* Build configuration list for PBXNativeTarget "NetworkCaller-Kickstarter (macOS)" */;
+			buildPhases = (
+				6A77CDD626303BF500EA8E62 /* Sources */,
+				6A77CDD726303BF500EA8E62 /* Frameworks */,
+				6A77CDD826303BF500EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NetworkCaller-Kickstarter (macOS)";
+			productName = "NetworkCaller-Kickstarter (macOS)";
+			productReference = 6A77CDDA26303BF500EA8E62 /* NetworkCaller-Kickstarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A77CDE126303BF500EA8E62 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE0226303BF500EA8E62 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6A77CDDE26303BF500EA8E62 /* Sources */,
+				6A77CDDF26303BF500EA8E62 /* Frameworks */,
+				6A77CDE026303BF500EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A77CDE426303BF500EA8E62 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6A77CDE226303BF500EA8E62 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6A77CDEC26303BF500EA8E62 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A77CE0526303BF500EA8E62 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6A77CDE926303BF500EA8E62 /* Sources */,
+				6A77CDEA26303BF500EA8E62 /* Frameworks */,
+				6A77CDEB26303BF500EA8E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A77CDEF26303BF500EA8E62 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6A77CDED26303BF500EA8E62 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A77CDC626303BF100EA8E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6A77CDD126303BF500EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6A77CDD926303BF500EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6A77CDE126303BF500EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6A77CDD126303BF500EA8E62;
+					};
+					6A77CDEC26303BF500EA8E62 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6A77CDD926303BF500EA8E62;
+					};
+				};
+			};
+			buildConfigurationList = 6A77CDC926303BF100EA8E62 /* Build configuration list for PBXProject "NetworkCaller-Kickstarter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A77CDC526303BF100EA8E62;
+			productRefGroup = 6A77CDD326303BF500EA8E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A77CDD126303BF500EA8E62 /* NetworkCaller-Kickstarter (iOS) */,
+				6A77CDD926303BF500EA8E62 /* NetworkCaller-Kickstarter (macOS) */,
+				6A77CDE126303BF500EA8E62 /* Tests iOS */,
+				6A77CDEC26303BF500EA8E62 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A77CDD026303BF500EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDF826303BF500EA8E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDD826303BF500EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDF926303BF500EA8E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDE026303BF500EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDEB26303BF500EA8E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A77CDCE26303BF500EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDF626303BF500EA8E62 /* ContentView.swift in Sources */,
+				6A77CDF426303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDD626303BF500EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDF726303BF500EA8E62 /* ContentView.swift in Sources */,
+				6A77CDF526303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDDE26303BF500EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDE726303BF500EA8E62 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77CDE926303BF500EA8E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A77CDF226303BF500EA8E62 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A77CDE426303BF500EA8E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A77CDD126303BF500EA8E62 /* NetworkCaller-Kickstarter (iOS) */;
+			targetProxy = 6A77CDE326303BF500EA8E62 /* PBXContainerItemProxy */;
+		};
+		6A77CDEF26303BF500EA8E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A77CDD926303BF500EA8E62 /* NetworkCaller-Kickstarter (macOS) */;
+			targetProxy = 6A77CDEE26303BF500EA8E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A77CDFA26303BF500EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A77CDFB26303BF500EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6A77CDFD26303BF500EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.NetworkCaller-Kickstarter";
+				PRODUCT_NAME = "NetworkCaller-Kickstarter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A77CDFE26303BF500EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.NetworkCaller-Kickstarter";
+				PRODUCT_NAME = "NetworkCaller-Kickstarter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A77CE0026303BF500EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.NetworkCaller-Kickstarter";
+				PRODUCT_NAME = "NetworkCaller-Kickstarter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A77CE0126303BF500EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.NetworkCaller-Kickstarter";
+				PRODUCT_NAME = "NetworkCaller-Kickstarter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6A77CE0326303BF500EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NetworkCaller-Kickstarter (iOS)";
+			};
+			name = Debug;
+		};
+		6A77CE0426303BF500EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NetworkCaller-Kickstarter (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A77CE0626303BF500EA8E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NetworkCaller-Kickstarter (macOS)";
+			};
+			name = Debug;
+		};
+		6A77CE0726303BF500EA8E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7L66FVSKE;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tripleN.networkcallerkickstarter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NetworkCaller-Kickstarter (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A77CDC926303BF100EA8E62 /* Build configuration list for PBXProject "NetworkCaller-Kickstarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CDFA26303BF500EA8E62 /* Debug */,
+				6A77CDFB26303BF500EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CDFC26303BF500EA8E62 /* Build configuration list for PBXNativeTarget "NetworkCaller-Kickstarter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CDFD26303BF500EA8E62 /* Debug */,
+				6A77CDFE26303BF500EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CDFF26303BF500EA8E62 /* Build configuration list for PBXNativeTarget "NetworkCaller-Kickstarter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE0026303BF500EA8E62 /* Debug */,
+				6A77CE0126303BF500EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE0226303BF500EA8E62 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE0326303BF500EA8E62 /* Debug */,
+				6A77CE0426303BF500EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A77CE0526303BF500EA8E62 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A77CE0626303BF500EA8E62 /* Debug */,
+				6A77CE0726303BF500EA8E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A77CDC626303BF100EA8E62 /* Project object */;
+}
