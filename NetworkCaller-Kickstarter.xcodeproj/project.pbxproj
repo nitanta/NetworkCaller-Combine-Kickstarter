@@ -15,6 +15,16 @@
 		6A77CDF726303BF500EA8E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CDCC26303BF100EA8E62 /* ContentView.swift */; };
 		6A77CDF826303BF500EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CDCD26303BF500EA8E62 /* Assets.xcassets */; };
 		6A77CDF926303BF500EA8E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A77CDCD26303BF500EA8E62 /* Assets.xcassets */; };
+		6A77CE0E26303C2300EA8E62 /* AppEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE0D26303C2300EA8E62 /* AppEndpoint.swift */; };
+		6A77CE1426303C7200EA8E62 /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE1326303C7200EA8E62 /* APIErrors.swift */; };
+		6A77CE1A26303C9200EA8E62 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE1926303C9200EA8E62 /* APIProvider.swift */; };
+		6A77CE2B26303DD400EA8E62 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE2A26303DD400EA8E62 /* LoginService.swift */; };
+		6A77CE3026303E1500EA8E62 /* AppEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE0D26303C2300EA8E62 /* AppEndpoint.swift */; };
+		6A77CE3126303E1800EA8E62 /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE1326303C7200EA8E62 /* APIErrors.swift */; };
+		6A77CE3226303E1A00EA8E62 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE1926303C9200EA8E62 /* APIProvider.swift */; };
+		6A77CE3326303E1E00EA8E62 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE2A26303DD400EA8E62 /* LoginService.swift */; };
+		6A77CE4426303E4900EA8E62 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE4326303E4900EA8E62 /* DataExtension.swift */; };
+		6A77CE4526303E4900EA8E62 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77CE4326303E4900EA8E62 /* DataExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		6A77CDED26303BF500EA8E62 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A77CDF126303BF500EA8E62 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6A77CDF326303BF500EA8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A77CE0D26303C2300EA8E62 /* AppEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndpoint.swift; sourceTree = "<group>"; };
+		6A77CE1326303C7200EA8E62 /* APIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
+		6A77CE1926303C9200EA8E62 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		6A77CE2A26303DD400EA8E62 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		6A77CE4326303E4900EA8E62 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,7 @@
 		6A77CDC526303BF100EA8E62 = {
 			isa = PBXGroup;
 			children = (
+				6A77CE0C26303C1800EA8E62 /* Source */,
 				6A77CDCA26303BF100EA8E62 /* Shared */,
 				6A77CDD426303BF500EA8E62 /* iOS */,
 				6A77CDDB26303BF500EA8E62 /* macOS */,
@@ -149,6 +165,50 @@
 				6A77CDF326303BF500EA8E62 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		6A77CE0C26303C1800EA8E62 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE4A26303E5000EA8E62 /* Extensions */,
+				6A77CE2826303D9B00EA8E62 /* Services */,
+				6A77CE2326303D8F00EA8E62 /* Network */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6A77CE2326303D8F00EA8E62 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE0D26303C2300EA8E62 /* AppEndpoint.swift */,
+				6A77CE1326303C7200EA8E62 /* APIErrors.swift */,
+				6A77CE1926303C9200EA8E62 /* APIProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6A77CE2826303D9B00EA8E62 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE2926303DC600EA8E62 /* Login */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6A77CE2926303DC600EA8E62 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE2A26303DD400EA8E62 /* LoginService.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6A77CE4A26303E5000EA8E62 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A77CE4326303E4900EA8E62 /* DataExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A77CDF626303BF500EA8E62 /* ContentView.swift in Sources */,
+				6A77CE2B26303DD400EA8E62 /* LoginService.swift in Sources */,
+				6A77CE1426303C7200EA8E62 /* APIErrors.swift in Sources */,
+				6A77CE1A26303C9200EA8E62 /* APIProvider.swift in Sources */,
 				6A77CDF426303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */,
+				6A77CE0E26303C2300EA8E62 /* AppEndpoint.swift in Sources */,
+				6A77CE4426303E4900EA8E62 /* DataExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +383,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A77CDF726303BF500EA8E62 /* ContentView.swift in Sources */,
+				6A77CE3326303E1E00EA8E62 /* LoginService.swift in Sources */,
+				6A77CE3126303E1800EA8E62 /* APIErrors.swift in Sources */,
+				6A77CE3226303E1A00EA8E62 /* APIProvider.swift in Sources */,
 				6A77CDF526303BF500EA8E62 /* NetworkCaller_KickstarterApp.swift in Sources */,
+				6A77CE3026303E1500EA8E62 /* AppEndpoint.swift in Sources */,
+				6A77CE4526303E4900EA8E62 /* DataExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
